@@ -1,0 +1,12 @@
+div{
+    width: 50%;
+    border: 2px red solid;
+    margin:  auto;
+    border-radius: 20px;
+    
+}
+p{
+    text-align: center;
+    color: blue;
+    
+}

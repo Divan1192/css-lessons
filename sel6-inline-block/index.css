@@ -1,0 +1,11 @@
+div p{
+    background: greenyellow;
+    display: inline;
+    margin: 20px;
+}
+span{
+    background: rgb(240, 136, 136);
+    margin-bottom:30px ;
+    display: block;
+    
+}

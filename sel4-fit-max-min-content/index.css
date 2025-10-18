@@ -1,0 +1,13 @@
+.p1{
+    background: #a1e616;
+    
+    width:fit-content; 
+}
+.p2{
+    background: #a1e616;
+    width: min-content;
+}
+.p3{
+    background: #a1e616;
+    width: max-content;
+}
