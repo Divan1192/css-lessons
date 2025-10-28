@@ -1,0 +1,35 @@
+.parent{
+   
+    background: rgb(243, 243, 121);
+}
+.red{
+    
+    width: 35%;
+    height: 200px;
+    background-image:url(Samsung-QN900C-What-Is-8K-Resolution-header.webp) ;
+    background-position: center;
+    background-size:contain ;
+    background-repeat: no-repeat;
+}
+.float{
+    float: left;
+}
+p{
+    line-height: 1.6;
+    font-style: oblique ;
+    font-size: larger;
+    font-family: sans-serif;
+    color:darkblue ;
+}
+.p1{
+    clear: both;
+    height: 200px;
+    width: 200px;
+    background: yellow;
+    border: 2px solid blue;
+    overflow: auto;
+    margin-top: 100px;
+    margin-left: 30px;
+
+
+}

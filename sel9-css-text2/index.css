@@ -1,0 +1,63 @@
+.parent{
+    width: 250px;
+    
+    background: yellowgreen;
+    white-space: pre-wrap  pre-line;
+    word-wrap: break-word;
+    text-transform: uppercase;
+}
+.t1{
+    font-family:  monospace;
+    font-size: 2rem;
+    color: brown;
+}
+.t2{
+    font-family:   sans-serif;
+}
+.t3{
+    font-family: Georgia, serif;
+}
+.t4{
+     font-family: 'Inter' , sans-serif ; 
+}
+p{
+    font-family: 'poppins';
+}
+.s1{
+    font-size: 2em;
+}
+.s2{
+    font-size: 3rem;
+}
+.s3{
+    font-size: 16px;
+}
+.s4{
+    font-size: 26px;
+    color: blue;
+}
+.pp1{
+    font-style: italic;
+    color: red;
+    background: yellow;
+    text-align: center;
+    width: 40%;
+}
+.pp2{
+    font-style: oblique;
+    color: rgb(30, 119, 208);
+    background: yellow;
+    width: 40%;
+    text-align: center;
+}
+.pp3{
+    font-weight: bold;
+}
+.pp4{
+    font-weight: normal;
+}
+.div {
+    text-align: center;
+    color: blueviolet;
+    font: oblique  small-caps bold 2rem  fantasy ;
+}

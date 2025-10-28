@@ -1,0 +1,122 @@
+body{
+    height: 1000px;
+}
+.d1{
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin: 30px;
+    text-align:center ;
+    font-size: 30px;
+}
+.d1:hover{
+    height: 100px;
+    width: 200px;
+    background-image: url(400.jpeg);
+    color: transparent;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: blue;
+}
+a:hover{
+    color: greenyellow;
+}
+a:visited{
+    color:green;
+}
+a:link{
+    color: aqua;
+}
+.in1 , .in2{
+    margin: 20px;
+}
+.in1:focus{
+    background: lightblue;
+}
+.in1:invalid{
+   background: rgb(241, 154, 154);
+}
+.in1:valid{
+    background: lightgreen;
+}
+.in2:disabled{
+    background: rgb(224, 219, 219);
+}
+.in3:checked{
+   color: green;
+}         /* pseudo elements*/
+p::first-line{
+    color: red;
+    background: yellow; 
+}
+p::first-letter{
+    color: blue;
+    font-size: 20px;
+}
+::selection{
+    background: greenyellow;
+}
+.li1::before{
+    content: ' test ';
+    background: yellow;
+    color: blue;
+    font-size: 25px;
+}
+.li1::after{
+    content: ' test ';
+    background: yellow;
+    color: blue;
+    font-size: 25px;
+}
+.hand-text::before{
+    content: ' ✌ ';
+    background: green;
+}
+.hand-text::after{
+    content: ' ✌ ';
+background: green; 
+}
+.li3::before{
+    content: url(Download.png);
+}
+.li3::after{
+    content: url(Download.png);
+}
+h1{
+    height: 100px;
+    background: lightcoral;
+    position: relative;
+    padding-left: 20px;
+}
+h1::before{
+    content: '';
+    height: 100%;
+    width: 15px;
+    background: darkorchid;
+    position: absolute;
+    left: 0;
+}
+ol{        /* sibling selectors*/
+    width: 100px;
+    list-style-type: none;
+}
+h2 + li {
+    background: rgb(85, 85, 175);
+    color: yellow;
+    list-style-type: none;
+}
+div{
+    width: 100px;
+    list-style-type: none;
+    margin-left: 35px;
+}
+h3 ~ li{
+    background: gray;
+    color: yellow;
+    
+}
+h3 , h2{
+    color: red;
+}

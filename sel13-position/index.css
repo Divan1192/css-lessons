@@ -1,0 +1,78 @@
+body{
+    height: 2000px;
+}
+.parent{
+    background: skyblue;
+    padding: 10px;
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    position:relative;
+}
+.parent div{
+    height: 50px;
+    width: 200px;
+    border: 2px solid whitesmoke;
+    border-radius: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger ;
+}
+.one{
+    background: tomato;
+    position: relative;
+    top: 18px;
+}
+.two{
+    background:gold;
+    position:absolute;
+   right: 5px;
+    bottom: 5px;
+}
+.three{
+    background: darkviolet;
+    position:sticky;
+    left: 60px;
+    top: 98px;
+    bottom: 50px;
+
+}
+.for{
+    background: green;
+    position: sticky;
+    top:148px ;
+    left: 80px;
+    bottom: 80px;
+}
+.clear{
+    clear: both;
+    position: absolute;
+}
+.p{
+    border: 3px solid whitesmoke;
+    position: absolute;
+    margin: 20px;
+}
+.red{
+    background: red;
+    width: 150px;
+    height: 50px;
+    z-index: -1;
+}
+.yellow{
+    background: yellow;
+    width: 150px;
+    height: 50px;
+    top: 40px;
+    left: 20px;
+    z-index: -2;
+}
+.green{
+    background: green;
+    width: 150px;
+    height: 50px;
+    top: 80px;
+    left: 40px;
+    z-index: -3;
+}

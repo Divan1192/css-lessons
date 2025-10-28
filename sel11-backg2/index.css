@@ -1,0 +1,25 @@
+body{
+    background-image: linear-gradient(to bottom ,rgb(20, 175, 192) ,transparent);
+    
+}
+.l1{
+    height: 200px;
+    background-image: linear-gradient(to right  bottom , red 30% , blue);
+}
+.l2{
+    height: 200px;
+    background-image: linear-gradient(to top left , green , yellow);
+}
+.r1{
+    height: 200px;
+    background-image: radial-gradient(circle at center ,white , lightblue,darkblue);
+}
+.r2{
+    height: 200px;
+    background-image: radial-gradient(ellipse , red,yellow);
+}
+.r3{
+    height: 200px;
+    background-image: radial-gradient(circle at top right, yellow,red,green,blue);
+
+}
